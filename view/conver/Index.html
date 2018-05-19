@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+    <title> Practica aprendiendo Javascript !</title>  
+	</head>
+	<body>
+		<div>
+			<form method="post"  action="/converDistancia"> 
+
+				<p> Tipo : </p>
+				<select name="tipo">    
+					<option value="Distancia" selected="selected">Distancia</option>
+				</select>
+
+				<p> Calcular distancia : </p>
+				<input type="text" id="distancia" name="distancia"></input>
+
+				<select name="medidaInicial">    
+				   <option value="KILOMETRO">Km</option>
+				   <option value="HECTOMETRO">Hm</option>
+				   <option value="DECAMETRO">Dm</option>
+				   <option value="METRO" selected="selected">m</option>
+				   <option value="DECIMETRO">dm</option>
+				   <option value="CENTIMETRO">cm</option>
+				   <option value="MILIMETRO">mm</option>
+				</select>
+
+				A 
+
+				<select name="medidaFinal">    
+				   <option value="KILOMETRO" selected="selected">Km</option>
+				   <option value="HECTOMETRO">Hm</option>
+				   <option value="DECAMETRO">Dm</option>
+				   <option value="METRO">m</option>
+				   <option value="DECIMETRO">dm</option>
+				   <option value="CENTIMETRO">cm</option>
+				   <option value="MILIMETRO">mm</option>
+				</select>
+
+				<button type="submit" id="btn" name="button" value="CALC"> CALCULAR </button>
+			</form>
+		</div>
+	</body>
+</html>
